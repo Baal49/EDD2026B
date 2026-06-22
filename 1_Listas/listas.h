@@ -40,6 +40,12 @@ class Nododoble{
         T getDato(){
             return dato;
         }
+
+        T setdato(T valor){
+            dato = valor;
+            return dato;
+        }
+        
         Nododoble<T>* getSiguiente(){
             return siguiente;
         }
